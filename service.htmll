@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Plant Shop</title>
+  </head>
+  <body>
+    <div style="background-image: url(images/service-back.png)" class="landing">
+      <!-- start header -->
+      <div class="header">
+        <div class="container">
+          <a href="index.html" id="logo">
+            <img src="images/Logo.png" alt="" />
+          </a>
+          <i class="fad fa-bars"></i>
+          <div class="links inactive" id="links">
+            <a href="service.html">Service</a>
+            <a href="#">Blog</a>
+            <a href="#">Shop</a>
+            <a href="#">Location</a>
+          </div>
+          <a href="index.html"><i class="fa-solid fa-house"></i></a>
+          <button>Check out(0)</button>
+        </div>
+      </div>
+      <!-- end header -->
+      <div class="service">
+        <div class="container">
+          <div class="text">
+            <h1>
+              Service for <br />
+              <span>home plants.</span>
+            </h1>
+            <p>
+              If you don’t know what plants you can add to the space,we can
+              provide you with selected plants,and configure your space.
+            </p>
+          </div>
+          <button class="try-button">Try for service</button>
+        </div>
+      </div>
+    </div>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
